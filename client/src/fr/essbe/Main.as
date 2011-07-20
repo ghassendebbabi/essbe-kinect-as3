@@ -1,3 +1,18 @@
+/**
+* Copyright (c) 2011 EssBe
+*  
+* Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
+* to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+* and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+* IN THE SOFTWARE.
+*/
+
 package fr.essbe
 {
 	import flash.display.Bitmap;
@@ -72,9 +87,9 @@ package fr.essbe
 			__k.addEventListener(KinectEvent.ON_RGB, __onRGB);
 			__k.addEventListener(KinectEvent.ON_SKELETON, __onSkeleton);
 			
-			//__k.addTask(new KinectTask(KinectUtils.CAMERA, KinectUtils.GET_DEPTH));
-			//__k.addTask(new KinectTask(KinectUtils.CAMERA, KinectUtils.GET_PLAYERS));
-			//__k.addTask(new KinectTask(KinectUtils.CAMERA, KinectUtils.GET_DEPTH_PLAYERS));
+			__k.addTask(new KinectTask(KinectUtils.CAMERA, KinectUtils.GET_DEPTH));
+			__k.addTask(new KinectTask(KinectUtils.CAMERA, KinectUtils.GET_PLAYERS));
+			__k.addTask(new KinectTask(KinectUtils.CAMERA, KinectUtils.GET_DEPTH_PLAYERS));
 			__k.addTask(new KinectTask(KinectUtils.CAMERA, KinectUtils.GET_RGB));
 			__k.addTask(new KinectTask(KinectUtils.CAMERA, KinectUtils.GET_SKEL));
 			
@@ -83,20 +98,14 @@ package fr.essbe
 		
 		private function __onSkeleton(e:KinectEvent):void 
 		{
-			
 			__skelSurface.graphics.clear();
-			__skelSurface.graphics.beginFill(0xff00ff);
 			var skels:Vector.<SkeletonData> = KinectUtils.processSkeletons(e.data);
 			skels.forEach(__drawSkeleton);
-			__skelSurface.graphics.endFill();
 		}
 		
 		private function __drawSkeleton(item:SkeletonData, id:int, v:Vector.<SkeletonData>):void 
 		{
-			for each(var j:JointsData in item.joints)
-			{
-				var skel:SimpleSkeleton = new SimpleSkeleton(item, __skelSurface);
-			}
+			var skel:SimpleSkeleton = new SimpleSkeleton(item, __skelSurface);
 		}
 		
 		private function __onRGB(e:KinectEvent):void 
