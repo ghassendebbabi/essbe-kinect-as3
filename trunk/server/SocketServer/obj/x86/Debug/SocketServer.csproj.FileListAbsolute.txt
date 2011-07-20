@@ -1,0 +1,16 @@
+c:\users\essbe\documents\visual studio 2010\Projects\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+c:\users\essbe\documents\visual studio 2010\Projects\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+c:\users\essbe\documents\visual studio 2010\Projects\SocketServer\SocketServer\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+c:\users\essbe\documents\visual studio 2010\Projects\SocketServer\SocketServer\bin\Debug\Microsoft.Expression.Drawing.dll
+c:\users\essbe\documents\visual studio 2010\Projects\SocketServer\SocketServer\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
+c:\users\essbe\documents\visual studio 2010\Projects\SocketServer\SocketServer\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\essbe\documents\visual studio 2010\Projects\SocketServer\SocketServer\obj\x86\Debug\SocketServer.exe
+c:\users\essbe\documents\visual studio 2010\Projects\SocketServer\SocketServer\obj\x86\Debug\SocketServer.pdb
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Debug\SocketServer.exe
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Debug\SocketServer.pdb
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\obj\x86\Debug\SocketServer.exe
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\obj\x86\Debug\SocketServer.pdb
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Debug\Coding4Fun.Kinect.Wpf.pdb

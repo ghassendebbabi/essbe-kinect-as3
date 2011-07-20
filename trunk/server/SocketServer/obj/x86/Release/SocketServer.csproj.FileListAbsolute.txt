@@ -1,0 +1,8 @@
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\obj\x86\Release\ResolveAssemblyReference.cache
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Release\SocketServer.exe
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Release\SocketServer.pdb
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Release\Coding4Fun.Kinect.Wpf.dll
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Release\Microsoft.Expression.Drawing.dll
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\bin\Release\Coding4Fun.Kinect.Wpf.pdb
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\obj\x86\Release\SocketServer.exe
+C:\wamp\www\4-Essais\Kinect\kinect_server\trunk\server\SocketServer\obj\x86\Release\SocketServer.pdb
